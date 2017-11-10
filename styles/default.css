@@ -1,0 +1,93 @@
+.syntax-highlighter {
+    font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+    font-size: 12px;
+    background-color: #1E2128;
+}
+
+.syntax-highlighter .T_KEYWORD {
+    color: #F92672;
+}
+
+.syntax-highlighter .T_IDENT {
+    color: #AE81FF;
+}
+
+.syntax-highlighter .T_NUMBER {
+    color: #AE81FF;
+}
+
+.syntax-highlighter .T_CLASSNAME {
+    color: #A6E22E;
+}
+
+.syntax-highlighter .T_VARIABLE {
+    color: #FD971F;
+}
+
+.syntax-highlighter .T_STRING {
+    color: #E6DB74;
+}
+
+.syntax-highlighter .T_STRING_ESCAPE {
+    color: magenta;
+}
+
+.syntax-highlighter .T_FUNCTION_CALL {
+    color: #ffffff;
+}
+
+.syntax-highlighter .T_REF_VARIABLE {
+    color: #A6E22E;
+}
+
+.syntax-highlighter .T_COMMENT {
+    color: grey;
+}
+
+.syntax-highlighter .T_UNKNOWN {
+    color: #ffffff;
+}
+
+.syntax-highlighter .T_REF {
+    color: #ffffff;
+}
+
+.syntax-highlighter .code {
+    white-space: pre;
+}
+
+.syntax-highlighter .line-number {
+    text-align: right;
+    white-space: nowrap;
+    vertical-align: top;
+    padding-right: 10px;
+    color: #363A4B;
+}
+
+.syntax-highlighter .selected-line {
+    background-color: #aa0000;
+}
+
+.syntax-highlighter .selected-line .line-number{
+    color: #ffffff;
+}
+
+.syntax-highlighter table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: inherit;
+}
+
+.syntax-highlighter table td.code {
+    width: 100%;
+    vertical-align: top;
+    padding: 0px;
+}
+
+.syntax-highlighter table td.line-number {
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}

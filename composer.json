@@ -1,0 +1,25 @@
+{
+    "name": "robinthehood/syntax-highlighter",
+    "type": "library",
+    "description": "With SyntaxHighlighter you can easily output syntax highlighted code as HTML.",
+    "keywords": ["syntax", "highlighting", "php", "html"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin Wieschendorf",
+            "email": "mail@robinwieschendorf.de",
+            "homepage": "http://robinwieschendorf.de",
+            "role": "Project Founder"
+        }
+    ],
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "robinthehood/tokenizer": "^0.1.0",
+        "robinthehood/terminal": "^0.1.1"
+    },
+    "autoload": {
+        "psr-4" : {
+            "SyntaxHighlighter\\" : "src"
+        }
+    }
+}
