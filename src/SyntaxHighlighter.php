@@ -1,7 +1,7 @@
 <?php
-namespace SyntaxHighlighter;
+namespace RobinTheHood\SyntaxHighlighter;
 
-use Tokenizer\Tokenizer;
+use RobinTheHood\Tokenizer\Tokenizer;
 
 class SyntaxHighlighter
 {

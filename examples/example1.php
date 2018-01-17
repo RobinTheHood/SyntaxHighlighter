@@ -1,6 +1,6 @@
 <?php
 require_once '../vendor/autoload.php';
-use SyntaxHighlighter\SyntaxHighlighter;
+use RobinTheHood\SyntaxHighlighter\SyntaxHighlighter;
 
 $syntaxHl = new SyntaxHighlighter();
 echo $syntaxHl->generate();
